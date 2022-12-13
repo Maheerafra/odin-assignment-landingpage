@@ -159,6 +159,47 @@
     padding-top: 25px;
     display: flex;
     align-items: center;
-    width: 400px;
+    width: 1000px;
+    font-size: 36px;
+    font:italic;
+}
+
+.call{
+  display: flex;
+  justify-content: center;
+}
+.sign-in-text{
+    margin-top: 25px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
     font-size: 25px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #f9faf8;
+    flex-direction: column;
+}
+.button{
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px; 
+}
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 20px;
+
+}
+.footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
